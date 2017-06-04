@@ -7,7 +7,7 @@ using System.Web;
 using System.Web.Http;
 using WebApiSecure.Security;
 
-namespace WebApiSecure.InraStructure
+namespace WebApiSecure
 {
     public class Startup
     {

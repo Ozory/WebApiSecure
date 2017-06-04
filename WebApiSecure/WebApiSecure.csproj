@@ -114,7 +114,7 @@
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Security\AuthorizationServerProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="InfraStructure\Startup.cs" />
+    <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
