@@ -9,5 +9,11 @@ namespace WebApiSecure.Controllers
 {
     public class ValuesController : ApiController
     {
+        [Authorize()]
+        [HttpGet()]
+        public List<String> Get()
+        {
+            return  new List<String>() { "Values 1", "Values 2"};
+        }
     }
 }
